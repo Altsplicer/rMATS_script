@@ -74,7 +74,7 @@ For example b1.txt will be a text file with the following line: /path/to/MB_0_1.
 
 As well as a b2.txt file with the following line: /path/to/MB_720_1.bam,/path/to/MB_720_2.bam,/path/to/MB_720_3.bam
 
-/path/to refers to the bam file location so in this example /dfs3b/hertel-lab/fcarranz/project_name/bam_files/example.bam
+/path/to refers to the bam file location, so in this example /dfs3b/hertel-lab/fcarranz/project_name/bam_files/example.bam
 
 ## OUTPUT FOLDER
 
