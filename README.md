@@ -37,21 +37,21 @@ module load rMATS/4.1.2
 module load python/
 ```
 
-# Annotation file location 
+## Annotation file location 
 Perferable use the same gtf file you used in your alignment
 ``` bash
 GTF=data/homezvol2/fcarranz/GTF/v45/gencode.v45.primary_assembly.basic.annotation.gtf
 ```
-# Bam file location
+## Bam file location
 ``` bash
 BAM_DIR=/dfs3b/hertel-lab/fcarranz/project_name/bam_files
 ```
 
-# Desired directory for output
+## Desired directory for output
 ``` bash
 OUTDIR=/dfs3b/hertel-lab/fcarranz/project_name/rMATS_analysis
 ```
-# BAM Files
+## BAM Files
 Bam file used in these examples.
 
 Note this example is a comparison between two conditions with 3 replicates.
@@ -66,7 +66,7 @@ rMATS allows you run with no replicates or multiple replicates. See documentatio
 6=MB_720_3.bam 
 ```
 
-# Important to note
+## Important to note
 
 Prior to running this script you first must make a text file name b1.txt and b2.txt with the path to the bam_files in replicate separated by only by a comma.
 
@@ -76,25 +76,25 @@ As well as a b2.txt file with the following line: /path/to/MB_720_1.bam,/path/to
 
 /path/to refers to the bam file location so in this example /dfs3b/hertel-lab/fcarranz/project_name/bam_files/example.bam
 
-# OUTPUT FOLDER
+## OUTPUT FOLDER
 
 ``` bash
 #name of output folder with rMATS comparison description
 SAMPLE_OUTDIR=${OUTDIR}/${1}_${2}_${3}_v_${4}_${5}_${6}
 ```
 
-# Making the result file directory
+## Making the result file directory
 
 ``` bash
 mkdir -p ${OUTDIR}
 mkdir -p ${SAMPLE_OUTDIR}
 ```
-# Text file location
+## Text file location
 
 ``` bash
 TXT=/dfs3b/hertel-lab/fcarranz/project_name/
 ```
-# rMATS execution
+## rMATS execution
 
 ``` bash
 rmats.py \
@@ -107,7 +107,7 @@ rmats.py \
 --nthread 8
 ```
 
-# Notes
+## Notes
 --b1 A text file containing a comma separated list of the BAM files for sample 1.
 
 --b2 A text file containing a comma separated list of the BAM files for sample 2.
