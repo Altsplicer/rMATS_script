@@ -105,7 +105,7 @@ rmats.py \
 --gtf ${GTF} \
 --od ${SAMPLE_OUTDIR} \
 --nthread 8
-``` bash
+```
 
 # Notes
 --b1 A text file containing a comma separated list of the BAM files for sample 1.
