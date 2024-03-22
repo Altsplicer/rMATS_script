@@ -4,7 +4,7 @@ Script [LINK](https://github.com/Altsplicer/rMATS_script/blob/main/bash/rMATS_sc
 
 [![.img/fig1.jpg](.img/fig1.jpg)](#nolink)
 
-## Overview
+# Overview
 
 This a script used to run a rMATS analysis. rMATS is used detect differential alternative splicing events from RNA-Seq data.
 
