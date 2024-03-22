@@ -1,6 +1,6 @@
 # [Franco](https://github.com/altsplicer) / [***rMATS***]
 
-Script [LINK](https://github.com/Altsplicer/Bam2BW_script/blob/main/bash/Bam2BW.sub)
+Script [LINK](https://github.com/Altsplicer/rMATS_script/blob/main/bash/rMATS_script.sub)
 
 [![.img/fig1.jpg](.img/fig1.jpg)](#nolink)
 
